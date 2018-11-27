@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="27941" started-at="2018-11-10T09:59:41 IST" finished-at="2018-11-10T10:00:09 IST">
+    <groups>
+      <group name="level-1">
+        <method signature="AssertEx.checkTitle()[pri:0, instance:testng.AssertEx@366e2eef]" name="checkTitle" class="testng.AssertEx"/>
+      </group> <!-- level-1 -->
+      <group name="level1">
+        <method signature="AssertEx.enterSearchText()[pri:0, instance:testng.AssertEx@366e2eef]" name="enterSearchText" class="testng.AssertEx"/>
+        <method signature="AssertEx.navigateBack()[pri:0, instance:testng.AssertEx@366e2eef]" name="navigateBack" class="testng.AssertEx"/>
+      </group> <!-- level1 -->
+    </groups>
+    <test name="seleniumpractice" duration-ms="27941" started-at="2018-11-10T09:59:41 IST" finished-at="2018-11-10T10:00:09 IST">
+      <class name="testng.AssertEx">
+        <test-method status="PASS" signature="checkBrowser()[pri:0, instance:testng.AssertEx@366e2eef]" name="checkBrowser" is-config="true" duration-ms="11680" started-at="2018-11-10T09:59:41 IST" finished-at="2018-11-10T09:59:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBrowser -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:testng.AssertEx@366e2eef]" name="checkTitle" duration-ms="17" started-at="2018-11-10T09:59:53 IST" finished-at="2018-11-10T09:59:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="enterSearchText()[pri:0, instance:testng.AssertEx@366e2eef]" name="enterSearchText" duration-ms="2188" started-at="2018-11-10T09:59:53 IST" finished-at="2018-11-10T09:59:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchText -->
+        <test-method status="PASS" signature="navigateBack()[pri:0, instance:testng.AssertEx@366e2eef]" name="navigateBack" duration-ms="1287" started-at="2018-11-10T09:59:55 IST" finished-at="2018-11-10T09:59:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBack -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testng.AssertEx@366e2eef]" name="closeBrowser" is-config="true" duration-ms="12734" started-at="2018-11-10T09:59:56 IST" finished-at="2018-11-10T10:00:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testng.AssertEx -->
+    </test> <!-- seleniumpractice -->
+  </suite> <!-- Default Suite -->
+</testng-results>

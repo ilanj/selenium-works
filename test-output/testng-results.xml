@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite_test" duration-ms="90" started-at="2018-11-15T12:58:39 IST" finished-at="2018-11-15T12:58:40 IST">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="90" started-at="2018-11-15T12:58:39 IST" finished-at="2018-11-15T12:58:40 IST">
+      <class name="testng.dataprovider.FnameLname_Xml">
+        <test-method status="PASS" signature="testRun(java.lang.String, java.lang.String)[pri:0, instance:testng.dataprovider.FnameLname_Xml@3a03464]" name="testRun" duration-ms="24" started-at="2018-11-15T12:58:39 IST" finished-at="2018-11-15T12:58:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ffnwf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edfejfn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRun -->
+      </class> <!-- testng.dataprovider.FnameLname_Xml -->
+    </test> <!-- test -->
+  </suite> <!-- Suite_test -->
+</testng-results>
