@@ -3,13 +3,15 @@ package locators;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.List;
 
 public class Tables {
     public static void main(String[] args) {
-        WebDriver driver=new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver","browserdrivers/chromedriver.exe");
+        WebDriver driver=new ChromeDriver();
         driver.get("file:///G:\\workspace\\selenium\\table.html");
         List<WebElement> rows=driver.findElements(By.xpath("//table/tbody/tr"));
         System.out.println(rows.size());

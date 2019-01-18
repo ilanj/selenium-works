@@ -1,21 +1,21 @@
-package locators;
+package poc.parallelwithlambdas;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.swing.*;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class OpenEMR {
-    public static void main(String[] args) throws InterruptedException {
+public class ParallelOperation {
+
+    static void runOpenEmr(WebDriver driver) throws InterruptedException {
         System.setProperty("webdriver.gecko.driver","browserdrivers/geckodriver.exe");
-        WebDriver driver=new FirefoxDriver();
         //implicit (global) and explicit wait- thread.sleep
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.get("http:/localhost/openemr");
@@ -45,7 +45,7 @@ public class OpenEMR {
         //driver.switchTo().frame("fin");
         WebElement temp=driver.findElement(By.xpath("//*[@id='framesDisplay']/div[3]/iframe"));
         driver.switchTo().frame(temp);
-       Thread.sleep(1000);
+        Thread.sleep(1000);
         List<WebElement> frames=driver.findElements(By.xpath("//*[@id=\"pt_table\"]/tbody/tr"));
         int length=frames.size();
         //length=3;
@@ -59,7 +59,7 @@ public class OpenEMR {
         }
 ////*[@id="pt_table"]//tbody/tr/td[1]-this searches only names in all rows
         String name="Benji";
-       // driver.findElement(By.xpath("//*[@id='pt_table']//tbody//tr//td[1][contains(text(),"+name+")]")).click();
+        // driver.findElement(By.xpath("//*[@id='pt_table']//tbody//tr//td[1][contains(text(),"+name+")]")).click();
         driver.findElement(By.xpath("//*[@id='pt_table']//tbody//tr//td[1][starts-with(text(),"+name+")]")).click();
         driver.navigate().back();
 
@@ -78,10 +78,10 @@ public class OpenEMR {
         //6.Parent: Selects the parent of the current node as shown in the below screen.
         //*[@id="pt_table"]/thead/tr[2]/th[2]//parent::tr
         //*[@id="pt_table"]/thead/tr[2]/th[2]//parent::th//selects the previous header always
-         //7.self
+        //7.self
         //8.descendant-Selects all descendants (children, grandchildren, etc.) of the current node
         ////*[@id="pt_table"]//descendant::th
-driver.switchTo().defaultContent();
+        driver.switchTo().defaultContent();
 
 
 
@@ -89,6 +89,6 @@ driver.switchTo().defaultContent();
 
         Thread.sleep(1500);
         driver.switchTo().defaultContent();
-       // driver.close();
+        // driver.close();
     }
 }

@@ -10,6 +10,22 @@ import java.util.concurrent.TimeUnit;
 
 public class LaunchBr {
     public static void main(String[] args) throws InterruptedException {
+        for(int i=0;i<20;i++)
+        {
+            new Thread(()-> {
+                try {
+                    googlesearch();
+                    System.out.print(Thread.currentThread().getName());
+                    System.out.println("\t"+Thread.currentThread().getId());
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }).start();
+        }
+
+    }
+
+    static void googlesearch() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","browserdrivers/chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

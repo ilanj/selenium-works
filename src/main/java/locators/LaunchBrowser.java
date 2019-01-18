@@ -19,9 +19,16 @@ public class LaunchBrowser {
             {
                 System.setProperty("webdriver.chrome.driver","browserdrivers/chromedriver.exe");
                 driver=new ChromeDriver();//constructor-invokes browser automatically
+                driver.get("https://github.com/");
+
             }
              else if(choice.contains("firefox")||choice.contains("mozilla"))
+            {
+                System.setProperty("webdriver.gecko.driver","browserdrivers/geckodriver.exe");
                 driver=new FirefoxDriver();//constructor-invokes browser automatically
+                driver.get("https://github.com/");
+
+            }
             else
                 System.out.println("invalid exiting");
 

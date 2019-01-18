@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4012640-579b-44d1-8095-09067beaa930" name="Default Changelist" comment="" />
+    <list default="true" id="e4012640-579b-44d1-8095-09067beaa930" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/css/CSSEg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/css/ListEg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/TestOpenEmr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/csslocators.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/demo/Credentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/demo/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/demo/PageObjectModelLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/others/Tamil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/poc/parallelwithlambdas/ChooseBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/poc/parallelwithlambdas/Parallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/poc/parallelwithlambdas/ParallelOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locators/LaunchBr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locators/LaunchBr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locators/LaunchBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locators/LaunchBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locators/OpenEMR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locators/OpenEMR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locators/Tables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locators/Tables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/poc/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poc/parallelwithlambdas/OpenBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/locators/LaunchBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/locators/LaunchBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/locators/Tables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/locators/Tables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/poc/OpenBrowser.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,45 +31,61 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/seleniumpractice$OpenEMR.ic" NAME="OpenEMR Coverage Results" MODIFIED="1547356421259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>locators.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="177331691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="7" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.42" value="2" />
-          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.63" value="2" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.84" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="39" />
-          <entry key="java" value="10804" />
+          <entry key="dummy" value="45" />
+          <entry key="java" value="12589" />
+          <entry key="txt" value="639" />
           <entry key="xml" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10804" />
-          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="JAVA" value="12589" />
+          <entry key="PLAIN_TEXT" value="684" />
           <entry key="XML" value="127" />
         </counts>
       </usages-collector>
@@ -56,7 +93,8 @@
         <counts>
           <entry key="class" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="123" />
+          <entry key="java" value="151" />
+          <entry key="txt" value="2" />
           <entry key="xhtml" value="1" />
           <entry key="xml" value="19" />
         </counts>
@@ -65,7 +103,8 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="123" />
+          <entry key="JAVA" value="151" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XHTML" value="1" />
           <entry key="XML" value="19" />
         </counts>
@@ -75,16 +114,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/ActionFlow.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/locators/Tables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/ActionsMethod.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/locators/LocatorsEx.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -92,11 +131,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/reports/PieChart.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/locators/LaunchBr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="102">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/locators/LaunchBrowser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/locators/csslocators.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/locators/demo/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="47" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,64 +180,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/reports/ItextPdfEx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/practice/FillForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testg_test.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp-testng-customsuite.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/RunTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/locators/TestOpenEmr.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="11" selection-start-line="10" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/RWData.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/css/CSSEg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="136">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/css/ListEg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="21" selection-start-line="63" selection-start-column="7" selection-end-line="67" selection-end-column="21" />
+            <state relative-caret-position="306">
+              <caret line="24" column="44" selection-start-line="23" selection-start-column="12" selection-end-line="24" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,30 +233,15 @@
       <find>enteru</find>
       <find>url</find>
       <find>jfree</find>
+      <find>text</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/action/RightClick.java" />
-        <option value="$PROJECT_DIR$/src/main/java/locators/OpenEMR.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alert/AlertWithOkCancel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alert/PromptAlert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/practice/Pom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/practice/FillForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/robot/MouseMovement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/windowstabs/MultipleWindows.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PomFalconi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Delete.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/KeywordFW.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/ActionsEx.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excelrw/ActionsMethod/KDFExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/KDFExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/RunTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/RWData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/ActionsMethod.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/reports/ItextPdfEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/testng/Fb.java" />
         <option value="$PROJECT_DIR$/src/main/java/testng/AssertEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/testng/PriorityEx.java" />
@@ -241,6 +274,25 @@
         <option value="$PROJECT_DIR$/src/main/java/excelrw/datadriven/KeywordFW.java" />
         <option value="$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/ActionFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/reports/PieChart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/css/List.java" />
+        <option value="$PROJECT_DIR$/src/main/java/locators/locators.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/others/Tamil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/locators/Tables.java" />
+        <option value="$PROJECT_DIR$/src/main/java/locators/OpenEMR.java" />
+        <option value="$PROJECT_DIR$/src/main/java/poc/ParallelOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/poc/ChooseBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/poc/Parallel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/poc/parallelwithlambdas/Parallel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/locators/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/locators/demo/PageObjectModelLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/locators/demo/Credentials.java" />
+        <option value="$PROJECT_DIR$/src/main/java/locators/demo/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/locators/LaunchBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/locators/TestOpenEmr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/locators/csslocators.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/css/ListEg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/css/CSSEg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/locators/LaunchBr.java" />
       </list>
     </option>
   </component>
@@ -257,11 +309,11 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="x" value="-7" />
+    <option name="width" value="1380" />
+    <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -298,7 +350,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="locators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="locators" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,9 +371,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542604638414" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547822651668" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/testg_test.xml" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.7517321" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -338,13 +399,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ItextPdfEx">
-    <configuration name="ItextPdfEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reports.ItextPdfEx" />
+  <component name="RunManager" selected="Application.LaunchBr">
+    <configuration name="LaunchBr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="locators.LaunchBr" />
       <module name="selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reports.*" />
+          <option name="PATTERN" value="locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,12 +413,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeywordFW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excelrw.datadriven.KeywordFW" />
+    <configuration name="LaunchBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="locators.LaunchBrowser" />
       <module name="selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="excelrw.datadriven.*" />
+          <option name="PATTERN" value="locators.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,12 +426,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poc.OpenBrowser" />
+    <configuration name="ListEg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="css.ListEg" />
       <module name="selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poc.*" />
+          <option name="PATTERN" value="css.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,12 +439,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PieChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reports.PieChart" />
+    <configuration name="Parallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poc.parallelwithlambdas.Parallel" />
       <module name="selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reports.*" />
+          <option name="PATTERN" value="poc.parallelwithlambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOpenEmr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="locators.TestOpenEmr" />
+      <module name="selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,22 +491,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="testng" />
       <option name="MAIN_CLASS_NAME" value="testng.Fb" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FnameLname_Dataprovider" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testng.dataprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testng.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="testng.dataprovider.FnameLname_Dataprovider" />
       <properties />
       <listeners />
       <method v="2">
@@ -660,19 +718,19 @@
       <item itemvalue="TestNG.aakash_xml" />
       <item itemvalue="TestNG.PriorityEx" />
       <item itemvalue="TestNG.G:/workspace/selenium/parameter.xml" />
-      <item itemvalue="Application.OpenBrowser" />
-      <item itemvalue="TestNG.FnameLname_Dataprovider" />
-      <item itemvalue="Application.KeywordFW" />
-      <item itemvalue="Application.PieChart" />
-      <item itemvalue="Application.ItextPdfEx" />
+      <item itemvalue="Application.Parallel" />
+      <item itemvalue="Application.LaunchBrowser" />
+      <item itemvalue="Application.TestOpenEmr" />
+      <item itemvalue="Application.ListEg" />
+      <item itemvalue="Application.LaunchBr" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ItextPdfEx" />
-        <item itemvalue="Application.PieChart" />
-        <item itemvalue="Application.KeywordFW" />
-        <item itemvalue="TestNG.FnameLname_Dataprovider" />
-        <item itemvalue="Application.OpenBrowser" />
+        <item itemvalue="Application.LaunchBr" />
+        <item itemvalue="Application.ListEg" />
+        <item itemvalue="Application.TestOpenEmr" />
+        <item itemvalue="Application.LaunchBrowser" />
+        <item itemvalue="Application.Parallel" />
       </list>
     </recent_temporary>
   </component>
@@ -723,9 +781,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33812407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27382752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -734,7 +791,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3622449" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3622449" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.335034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -751,91 +808,31 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.0" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/css/ListEg.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/poc/parallelwithlambdas/Parallel.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/windowstabs/MultipleWindows.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/windowstabs/MiltipleTabs.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/WebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alert/AlertWithOkCancel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="45" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PomFalconi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="112" selection-start-line="15" selection-start-column="112" selection-end-line="15" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/excelrw/kwdriven/KDFExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/ToolsqaPracticeForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/Pom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/locators/LaunchBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/locators/LaunchBr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="56" selection-start-line="12" selection-start-column="7" selection-end-line="15" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/poc/CCWAdminPortal.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/poc/BusinessLogic.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/poc/CCWFaxInbox.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/poc/Chart.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/poc/DateTimeHelper.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/net/Authenticator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="374" column="5" lean-forward="true" selection-start-line="374" selection-start-column="5" selection-end-line="374" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/poc/EMailReport.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/poc/ExcelHelper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/poc/FaxInbox.java" />
@@ -869,24 +866,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/locators/OpenEMR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="46" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parameter.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/poc/OpenBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -946,23 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/reports/PieChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/reports/ItextPdfEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testg_test.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -984,10 +950,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practice/FillForm.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/others/Tamil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reports/PieChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reports/ItextPdfEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/RWData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/poc/parallelwithlambdas/OpenBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/poc/parallelwithlambdas/Parallel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5831">
+          <caret line="415" column="12" selection-start-line="415" selection-start-column="12" selection-end-line="415" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/poc/parallelwithlambdas/ChooseBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/poc/parallelwithlambdas/ParallelOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/locators/demo/Credentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/locators/demo/PageObjectModelLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -998,10 +1043,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/FillForm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/locators/OpenEMR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="782">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/locators/Tables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/locators/LocatorsEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/locators/LaunchBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/locators/csslocators.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/locators/demo/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="47" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/locators/TestOpenEmr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/css/ListEg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="44" selection-start-line="23" selection-start-column="12" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/css/CSSEg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/locators/LaunchBr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

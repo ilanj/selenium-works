@@ -1,0 +1,40 @@
+     CSS Selector
+choose by class name-> ".classname"
+choose by tag and class name-> "tagname.classname"
+choose by tag name-> "tagname"
+choose by id-> "#id"
+choose by tag and id-> "tagname#id"
+
+choose by  name-> "[name=entername]"
+choose by tag and attribute-> tag[attribute=value]"
+                              eg:"input[name=authUser]"
+choose by tag, class and attribute -> "tag.class[attribute=value]"
+                              eg: "input.form-control[name=authUser]"
+
+Using sub string matches: ^ $ *
+^- starts with
+<HTML tag><[attribute^="prefix of the string"]
+eg: input[id^='au']
+
+$- ends with
+<HTML tag><[attribute$=suffix of the string]
+eg: input[id$='001']
+
+*- contains
+<HTML tag><[attribute*=sub string]
+eg: input[id*='id'] also can write as "input:contains('id')"
+---------------------------------------------------------------------------------------------------------
+<div id="buttonDiv" class="small">
+<button id="submitButton" type="button" class="btn">Submit</button>
+</div>
+Syntax: parentLocator>childLocator
+div>button
+
+CSS Locator: div#buttonDiv>button
+Explanation: ‘div#buttonDiv>button’ will first go to div element with id ‘buttonDiv’ and then select
+its child element – ‘button’
+----------------------------------------------------------------------------------------------------------
+
+
+
+

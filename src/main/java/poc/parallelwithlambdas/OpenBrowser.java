@@ -1,4 +1,4 @@
-package poc;
+package poc.parallelwithlambdas;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
