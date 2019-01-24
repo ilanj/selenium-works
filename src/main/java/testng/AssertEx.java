@@ -40,8 +40,8 @@ public class AssertEx {
         }
         @AfterTest
         void closeBrowser() throws InterruptedException {
-            System.out.println("waiting for 10 secs");
-            Thread.sleep(10000);
+            System.out.println("waiting for 4 secs");
+            Thread.sleep(4000);
             System.out.println("google driver is closing   ");
             driver.close();
         }

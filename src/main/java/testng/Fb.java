@@ -1,6 +1,7 @@
 package testng;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -13,8 +14,8 @@ public class Fb {
     void checkBrowser()
     {
         System.out.println("this is facebook");
-        System.setProperty("webdriver.gecko.driver","browserdrivers/geckodriver.exe");
-        driver=new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver","browserdrivers/chromedriver.exe");
+        driver=new ChromeDriver();
         driver.get("https://www.facebook.com");
     }
     @Test

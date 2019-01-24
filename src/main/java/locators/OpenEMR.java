@@ -17,12 +17,16 @@ public class OpenEMR {
         System.setProperty("webdriver.gecko.driver","browserdrivers/geckodriver.exe");
         WebDriver driver=new FirefoxDriver();
         //implicit (global) and explicit wait- thread.sleep
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        WebDriverWait expWait=new WebDriverWait(driver,15);
+
         driver.get("http:/localhost/openemr");
         WebElement username=driver.findElement(By.id("authUser"));
         WebElement password=driver.findElement(By.id("clearPass"));
         WebElement language=driver.findElement(By.name("languageChoice"));
         WebElement loginButton=driver.findElement(By.xpath("//button"));// as this is unique
+
+
         username.sendKeys("admin");
         password.sendKeys("pass");
 
@@ -33,19 +37,20 @@ public class OpenEMR {
 
         //driver.findElement(By.xpath("//div[text()='Patient/Client']"));//practice
 //        driver.findElement(By.xpath("//div[contains(text(),'Patient/Client')]"));//practice
-        WebDriverWait expWait=new WebDriverWait(driver,30);
         expWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[text()='Patient/Client']")));
+
         WebElement patientTab=driver.findElement(By.xpath("//div[text()='Patient/Client']"));
+        WebElement patientMenu=driver.findElement(By.xpath("//div[text()='Patients']"));
 
         Actions act=new Actions(driver);
 
-        act.moveToElement(patientTab).moveToElement(driver.findElement(By.xpath("//div[text()='Patients']"))).click().build().perform();
+        act.moveToElement(patientTab).moveToElement(patientMenu).click().build().perform();
         //driver.findElement(By.xpath("//div[text()='Patients']")).click();
 
         //driver.switchTo().frame("fin");
         WebElement temp=driver.findElement(By.xpath("//*[@id='framesDisplay']/div[3]/iframe"));
         driver.switchTo().frame(temp);
-       Thread.sleep(1000);
+        Thread.sleep(1000);
         List<WebElement> frames=driver.findElements(By.xpath("//*[@id=\"pt_table\"]/tbody/tr"));
         int length=frames.size();
         //length=3;
@@ -88,7 +93,7 @@ driver.switchTo().defaultContent();
 
 
         Thread.sleep(1500);
-        driver.switchTo().defaultContent();
+//        driver.switchTo().defaultContent();
        // driver.close();
     }
 }

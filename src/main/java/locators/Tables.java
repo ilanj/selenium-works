@@ -14,12 +14,12 @@ public class Tables {
         WebDriver driver=new ChromeDriver();
         driver.get("file:///G:\\workspace\\selenium\\table.html");
         List<WebElement> rows=driver.findElements(By.xpath("//table/tbody/tr"));
-        System.out.println(rows.size());
+        System.out.println("NO OF ROWS= "+rows.size());
         for(int i=2;i<=rows.size();i++)
         {
             System.out.println("this is row no "+i);
             List<WebElement> eachColumn=driver.findElements(By.xpath("//table/tbody/tr["+i+"]/td"));
-            eachColumn.forEach(c-> System.out.println(c.getText()));
+            eachColumn.forEach(item-> System.out.println(item.getText()));
         }
 
 //        for(WebElement w:rows)

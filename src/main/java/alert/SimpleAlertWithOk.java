@@ -6,6 +6,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SimpleAlertWithOk {
     public static void main(String[] args) throws InterruptedException {
+        System.setProperty("webdriver.gecko.driver","browserdrivers/geckodriver.exe");
+
         WebDriver driver=new FirefoxDriver();
         driver.get("file:///G:/workspace/selenium/Alert.html");
         driver.findElement(By.xpath("//button[text()=\"Click on me\"]")).click();

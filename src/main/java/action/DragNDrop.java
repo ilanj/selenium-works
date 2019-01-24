@@ -14,24 +14,25 @@ public class DragNDrop {
         System.setProperty("webdriver.gecko.driver","browserdrivers/geckodriver.exe");
         WebDriver driver=new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
         driver.get("http://jqueryui.com/droppable/");
         WebElement frame=driver.findElement(By.xpath("//*[@id=\"content\"]/iframe"));
         driver.switchTo().frame(frame);
+
         WebElement source=driver.findElement(By.id("draggable"));
         WebElement target=driver.findElement(By.id("droppable"));
 
         Actions act=new Actions(driver);
         act.dragAndDrop(source,target).build().perform();
-        //Thread.sleep(1500);
+        Thread.sleep(1000);
         driver.navigate().refresh();
+        Thread.sleep(1000);
         act.sendKeys(Keys.PAGE_DOWN).build().perform();
 
         act.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).build().perform();
 
-
         driver.switchTo().defaultContent();
-
-
+        driver.quit();
 
     }
 }

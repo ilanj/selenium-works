@@ -3,15 +3,16 @@
 <suite name = "Suite_test" parallel="methods" thread-count="5">
   
    <test name = "test">
-      <groups>
-         <run>
-            <include name="level2" />
+      <!--<groups>-->
+         <!--<run>-->
+            <!--<include name="level4" />-->
 
-         </run>
-      </groups>
+         <!--</run>-->
+      <!--</groups>-->
       <classes>
          <class name = "testng.PriorityEx"/>
          <class name = "testng.AssertEx"/>
+         <class name = "testng.Fb"/>
 
 
       </classes>

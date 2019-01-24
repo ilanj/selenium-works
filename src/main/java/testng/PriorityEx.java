@@ -1,11 +1,12 @@
 package testng;
 
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class PriorityEx {
-    @BeforeTest
+    @BeforeMethod
     void start()
     {
         System.out.println("Test started");
@@ -19,6 +20,11 @@ public class PriorityEx {
     void print2() throws InterruptedException {
         Thread.sleep(2500);
         System.out.println("i am print 2");
+    }
+    @Test(groups="level4")
+    void print4() throws InterruptedException {
+        Thread.sleep(2500);
+        System.out.println("i am group4");
     }
     @Test(groups="level2")
     void print3() throws InterruptedException {

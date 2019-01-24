@@ -11,6 +11,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class RightClick {
     public static void main(String[] args) throws InterruptedException {
+        System.setProperty("webdriver.gecko.driver","browserdrivers/geckodriver.exe");
+
         WebDriver driver=new FirefoxDriver();
         driver.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");
         //To maximize the browser
@@ -20,9 +22,9 @@ public class RightClick {
         //Wait for the element. Used Explicit wait
         WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".context-menu-one")));
-        WebElement locator = driver.findElement(By.cssSelector(".context-menu-one"));
+//        WebElement locator =
 
-        WebElement rightClickElement=locator;
+        WebElement rightClickElement=driver.findElement(By.cssSelector(".context-menu-one"));
         //contextClick() method to do right click on the element
         action.contextClick(rightClickElement).build().perform();
         Thread.sleep(1500);
