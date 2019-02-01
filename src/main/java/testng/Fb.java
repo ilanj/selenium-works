@@ -18,23 +18,27 @@ public class Fb {
         driver=new ChromeDriver();
         driver.get("https://www.facebook.com");
     }
-    @Test
+
+    @Test(groups="level2")
     void checkTitle()  {
         String expected="Facebook – log in or sign up";
         Assert.assertEquals(driver.getTitle(),expected);
         //System.out.println("actual title="+driver.getTitle());
     }
+
     @Test(enabled = false)
     void print()
     {
         int a=36/0;
         System.out.println(" print");
     }
-    @Test
+
+    @Test(groups="level2")
     void print1()
     {
         System.out.println(" print1");
     }
+
     @AfterTest
     void closeBrowser()
     {

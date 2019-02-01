@@ -18,6 +18,7 @@ public class AssertEx {
             driver=new FirefoxDriver();
             driver.get("https://www.google.com");
         }
+
         @Test(groups="level1")
         void checkTitle()
         {
@@ -25,6 +26,7 @@ public class AssertEx {
          Assert.assertEquals(driver.getTitle(),expected);
             System.out.println("actual title="+driver.getTitle());
         }
+
         @Test(groups="level1")
         void enterSearchText()
         {
@@ -38,6 +40,7 @@ public class AssertEx {
             driver.navigate().back();
 
         }
+
         @AfterTest
         void closeBrowser() throws InterruptedException {
             System.out.println("waiting for 4 secs");

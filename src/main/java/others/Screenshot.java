@@ -7,20 +7,24 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.File;
+import java.time.LocalDate;
+import java.time.LocalTime;
 
-    public class Screenshot {
+public class Screenshot {
     public static void main(String[] args) throws Exception {
-
+        System.setProperty("webdriver.gecko.driver","browserdrivers/geckodriver.exe");
         WebDriver driver=new FirefoxDriver();
         driver.get("https://www.google.com");
-        takeSnapShot(driver,"./screenshots/aaa.png");
+        String time= LocalTime.now().toString();
+        takeSnapShot(driver,"screenshots/"+time+".png");
         driver.close();
     }
-    public static void takeSnapShot(WebDriver webdriver, String fileWithPath) throws Exception{
+
+    public static void takeSnapShot(WebDriver driver, String fileWithPath) throws Exception{
 
         //Convert web driver object to TakeScreenshot
 
-        TakesScreenshot scrShot =((TakesScreenshot)webdriver);
+        TakesScreenshot scrShot = (TakesScreenshot) driver;
 
         //Call getScreenshotAs method to create image file
 

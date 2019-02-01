@@ -15,43 +15,45 @@ public class FillForm {
     static void fillForm(WebDriver driver) throws AWTException, InterruptedException {
         driver.get("http://toolsqa.com/automation-practice-form/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+        boolean checkboxstatus;
         firstName(driver).sendKeys("ila");
         lastName(driver).sendKeys("jayamurthy");
         sexRadioButton(driver).click();
         experienceRadioButton(driver).click();
         datePicker(driver).sendKeys("1990-03-08");
+        professionCheckbox(driver).clear();
         professionCheckbox(driver).click();
+        checkboxstatus=professionCheckbox(driver).isSelected();
         uploadButton(driver).sendKeys("G:\\workspace\\selenium\\screenshots\\aaa.png");
         Robot r=new Robot();
         downloadSeleniumAutomationLink(driver).click();
         Thread.sleep(4500);
-        r.keyPress(KeyEvent.VK_DOWN);
-        Thread.sleep(500);
-
-        r.keyPress(KeyEvent.VK_TAB);
-        Thread.sleep(500);
-
-        r.keyPress(KeyEvent.VK_TAB);
-        Thread.sleep(500);
-
-        r.keyPress(KeyEvent.VK_TAB);
-        Thread.sleep(500);
+//        r.keyPress(KeyEvent.VK_DOWN);
+//        Thread.sleep(500);
+//
+//        r.keyPress(KeyEvent.VK_TAB);
+//        Thread.sleep(500);
+//
+//        r.keyPress(KeyEvent.VK_TAB);
+//        Thread.sleep(500);
+//
+//        r.keyPress(KeyEvent.VK_TAB);
+//        Thread.sleep(500);
 
         r.keyPress(KeyEvent.VK_ENTER);
         downloadTestFile(driver).click();
         Thread.sleep(4500);
-        r.keyPress(KeyEvent.VK_DOWN);
-        Thread.sleep(500);
-
-        r.keyPress(KeyEvent.VK_TAB);
-        Thread.sleep(500);
-
-        r.keyPress(KeyEvent.VK_TAB);
-        Thread.sleep(500);
-
-        //r.keyPress(KeyEvent.VK_TAB);
-        Thread.sleep(500);
+//        r.keyPress(KeyEvent.VK_DOWN);
+//        Thread.sleep(500);
+//
+//        r.keyPress(KeyEvent.VK_TAB);
+//        Thread.sleep(500);
+//
+//        r.keyPress(KeyEvent.VK_TAB);
+//        Thread.sleep(500);
+//
+//        //r.keyPress(KeyEvent.VK_TAB);
+//        Thread.sleep(500);
 
         r.keyPress(KeyEvent.VK_ENTER);
 

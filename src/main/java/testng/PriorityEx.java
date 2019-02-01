@@ -1,12 +1,10 @@
 package testng;
 
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+
+import org.testng.annotations.*;
 
 public class PriorityEx {
-    @BeforeMethod
+    @BeforeClass
     void start()
     {
         System.out.println("Test started");
@@ -31,7 +29,7 @@ public class PriorityEx {
         Thread.sleep(2500);
         System.out.println("i am print 3");
     }
-    @AfterTest
+    @AfterClass
     void stop()
     {
         System.out.println("test stopped");

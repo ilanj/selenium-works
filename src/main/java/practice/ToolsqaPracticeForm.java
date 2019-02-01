@@ -10,8 +10,13 @@ import java.awt.*;
 public class ToolsqaPracticeForm {
     public static void main(String[] args) throws AWTException, InterruptedException {
         System.setProperty("webdriver.gecko.driver","browserdrivers/geckodriver.exe");
-        WebDriver driver=new FirefoxDriver();
+        WebDriver driver=new FirefoxDriver( );
+        run(driver);
+
+    }
+    static void run(WebDriver driver) throws InterruptedException, AWTException {
         FillForm.fillForm(driver);
+
     }
 
 }
