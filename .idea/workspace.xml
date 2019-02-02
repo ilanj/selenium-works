@@ -2,26 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4012640-579b-44d1-8095-09067beaa930" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/actions/RedirectToMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/workbookoperations/ReadKeyword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/others/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/others/Screenshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/FillForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/FillForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/ToolsqaPracticeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/ToolsqaPracticeForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testng/AssertEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testng/AssertEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testng/Fb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testng/Fb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gggg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/gggg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itext_ex.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/itext_ex.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readkeyword.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/readkeyword.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/ActionFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excelrw/keyworddriven/ActionFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/actions/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/actions/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/actions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/actions/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/main/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/main/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reports/PieChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reports/PieChart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/testng/PriorityEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testng/PriorityEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/windowstabs/MiltipleTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/windowstabs/MultipleTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/action/DragNDrop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/action/DragNDrop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/action/RightClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/action/RightClick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alert/SimpleAlertWithOk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alert/SimpleAlertWithOk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/others/Screenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/others/Screenshot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practice/FillForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/practice/FillForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practice/ToolsqaPracticeForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/practice/ToolsqaPracticeForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testng/AssertEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng/AssertEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testng/Fb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng/Fb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testng/dataprovider/FnameLname_Dataprovider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testng/dataprovider/FnameLname_Dataprovider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testng/dataprovider/FnameLname_Xml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testng/dataprovider/FnameLname_Xml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/excelrw/keyworddriven/ActionFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/excelrw/keyworddriven/ActionFlow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/testng/PriorityEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng/PriorityEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/windowstabs/MiltipleTabs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testg_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testg_test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng/dataprovider/FnameLname_Dataprovider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng/dataprovider/FnameLname_Dataprovider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng/dataprovider/FnameLname_Xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng/dataprovider/FnameLname_Xml.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,7 +38,7 @@
     <session id="177331691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="4" />
@@ -84,25 +82,25 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="dummy" value="46" />
-          <entry key="java" value="14044" />
-          <entry key="txt" value="649" />
-          <entry key="xml" value="217" />
+          <entry key="java" value="14640" />
+          <entry key="txt" value="672" />
+          <entry key="xml" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="14044" />
-          <entry key="PLAIN_TEXT" value="695" />
-          <entry key="XML" value="217" />
+          <entry key="JAVA" value="14640" />
+          <entry key="PLAIN_TEXT" value="718" />
+          <entry key="XML" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
+          <entry key="class" value="7" />
           <entry key="html" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="214" />
+          <entry key="java" value="225" />
           <entry key="txt" value="3" />
           <entry key="xhtml" value="1" />
           <entry key="xml" value="32" />
@@ -110,10 +108,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
+          <entry key="CLASS" value="7" />
           <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="214" />
+          <entry key="JAVA" value="225" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XHTML" value="1" />
           <entry key="XML" value="32" />
@@ -124,116 +122,118 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testng/PriorityEx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testng/CrossBrowserTest/MultipleBrowser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testng/listeners/TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testng/dataprovider/FnameLname_Dataprovider.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/framework/main/RunTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testng/dataprovider/FnameLname_Xml.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parameter.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testng/listeners/ListenerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/practice/Pom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+            <state relative-caret-position="272">
+              <caret line="17" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-                <element signature="e#1488#1489#0" expanded="true" />
-                <element signature="e#1546#1547#0" expanded="true" />
-                <element signature="e#1610#1611#0" expanded="true" />
-                <element signature="e#1672#1673#0" expanded="true" />
-                <element signature="e#2012#2013#0" expanded="true" />
-                <element signature="e#2070#2071#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/windowstabs/MultipleWindows.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/framework/actions/RedirectToMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alert/SimpleAlertWithOk.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/framework/actions/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#94#95#0" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/framework/actions/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+              <folding>
+                <element signature="e#1126#1127#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1307#1308#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/framework/pom/LoginPom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/framework/workbookoperations/ReadKeyword.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/framework/utils/LoginCredentials.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="8" selection-start-line="8" selection-end-line="9" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/reports/ItextPdfEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="60" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/reports/PieChart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -270,11 +270,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/css/List.java" />
-        <option value="$PROJECT_DIR$/src/main/java/locators/locators.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/others/Tamil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/poc/ParallelOperation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/poc/ChooseBrowser.java" />
         <option value="$PROJECT_DIR$/src/main/java/poc/Parallel.java" />
         <option value="$PROJECT_DIR$/src/main/java/poc/parallelwithlambdas/Parallel.java" />
         <option value="$PROJECT_DIR$/src/main/java/locators/Demo.java" />
@@ -286,14 +281,9 @@
         <option value="$PROJECT_DIR$/src/main/java/css/ListEg.java" />
         <option value="$PROJECT_DIR$/src/main/java/css/CSSEg.java" />
         <option value="$PROJECT_DIR$/src/main/java/locators/LaunchBr.java" />
-        <option value="$PROJECT_DIR$/src/main/java/framework/main/RunTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/framework/utils/Credentials.java" />
-        <option value="$PROJECT_DIR$/src/main/java/framework/utils/LoginCredentials.java" />
         <option value="$PROJECT_DIR$/src/main/java/framework/pom/LoginPom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/framework/actions/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/framework/actions/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/locators/Tables.java" />
-        <option value="$PROJECT_DIR$/multi.xml" />
         <option value="$PROJECT_DIR$/src/main/java/testng/CrossBrowserTest/MultipleBrowser.java" />
         <option value="$PROJECT_DIR$/src/main/java/excelrw/datadriven/KeywordFW.java" />
         <option value="$PROJECT_DIR$/src/main/java/locators/TestOpenEmr.java" />
@@ -302,7 +292,6 @@
         <option value="$PROJECT_DIR$/src/main/java/testng/annotations/MyTestClass1.java" />
         <option value="$PROJECT_DIR$/src/main/java/testng/annotations/MyTestClass2.java" />
         <option value="$PROJECT_DIR$/annotations.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/testng/listeners/ListenerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testng/listeners/TestCases.java" />
         <option value="$PROJECT_DIR$/src/main/java/action/RightClick.java" />
         <option value="$PROJECT_DIR$/src/main/java/action/DragNDrop.java" />
@@ -316,11 +305,22 @@
         <option value="$PROJECT_DIR$/src/main/java/practice/ToolsqaPracticeForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/practice/FillForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/others/Screenshot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testng/PriorityEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/testng/AssertEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/testng/Fb.java" />
         <option value="$PROJECT_DIR$/testg_test.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/testng/PriorityEx.java" />
+        <option value="$PROJECT_DIR$/multi.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/testng/dataprovider/FnameLname_Dataprovider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testng/dataprovider/FnameLname_Xml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testng/listeners/ListenerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/framework/actions/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/framework/actions/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/framework/keyword/ReadKeyword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/framework/actions/RedirectToMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/framework/main/RunTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/framework/utils/LoginCredentials.java" />
+        <option value="$PROJECT_DIR$/src/main/java/reports/PieChart.java" />
       </list>
     </option>
   </component>
@@ -381,7 +381,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumpractice" type="b2602c69:ProjectViewProjectNode" />
@@ -389,8 +389,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="dataprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumpractice" type="b2602c69:ProjectViewProjectNode" />
@@ -398,8 +398,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="listeners" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="pom" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,7 +418,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548988040888" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548996806607" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/testg_test.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -438,7 +447,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FnameLname_Dataprovider">
+  <component name="RunManager" selected="Application.PieChart">
+    <configuration name="ItextPdfEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reports.ItextPdfEx" />
+      <module name="selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PieChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reports.PieChart" />
+      <module name="selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="framework.main.RunTest" />
+      <module name="selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AssertEx" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <module name="selenium" />
       <extension name="coverage">
@@ -465,22 +513,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="testng" />
       <option name="MAIN_CLASS_NAME" value="testng.Fb" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FnameLname_Dataprovider" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testng.dataprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testng.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="testng.dataprovider.FnameLname_Dataprovider" />
       <properties />
       <listeners />
       <method v="2">
@@ -641,69 +673,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityEx" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testng.*" />
+          <option name="PATTERN" value="testng.listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testng" />
-      <option name="MAIN_CLASS_NAME" value="testng.PriorityEx" />
+      <option name="PACKAGE_NAME" value="testng.listeners" />
+      <option name="MAIN_CLASS_NAME" value="testng.listeners.TestCases" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityEx.print1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases.login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testng.*" />
+          <option name="PATTERN" value="testng.listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testng" />
-      <option name="MAIN_CLASS_NAME" value="testng.PriorityEx" />
-      <option name="METHOD_NAME" value="print1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriorityEx.print3" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testng" />
-      <option name="MAIN_CLASS_NAME" value="testng.PriorityEx" />
-      <option name="METHOD_NAME" value="print3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriorityEx.scenarioThree" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testng" />
-      <option name="MAIN_CLASS_NAME" value="testng.PriorityEx" />
-      <option name="METHOD_NAME" value="scenarioThree" />
+      <option name="PACKAGE_NAME" value="testng.listeners" />
+      <option name="MAIN_CLASS_NAME" value="testng.listeners.TestCases" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -834,19 +830,19 @@
       <item itemvalue="TestNG.G:/workspace/selenium/parameter.xml" />
       <item itemvalue="TestNG.MultipleBrowser" />
       <item itemvalue="TestNG.G:/workspace/selenium/multi.xml" />
-      <item itemvalue="TestNG.PriorityEx.scenarioThree" />
-      <item itemvalue="TestNG.PriorityEx.print3" />
-      <item itemvalue="TestNG.PriorityEx.print1" />
-      <item itemvalue="TestNG.PriorityEx" />
-      <item itemvalue="TestNG.FnameLname_Dataprovider" />
+      <item itemvalue="TestNG.TestCases.login" />
+      <item itemvalue="TestNG.TestCases" />
+      <item itemvalue="Application.RunTest" />
+      <item itemvalue="Application.ItextPdfEx" />
+      <item itemvalue="Application.PieChart" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FnameLname_Dataprovider" />
-        <item itemvalue="TestNG.PriorityEx" />
-        <item itemvalue="TestNG.PriorityEx.print1" />
-        <item itemvalue="TestNG.PriorityEx.print3" />
-        <item itemvalue="TestNG.PriorityEx.scenarioThree" />
+        <item itemvalue="Application.PieChart" />
+        <item itemvalue="Application.ItextPdfEx" />
+        <item itemvalue="Application.RunTest" />
+        <item itemvalue="TestNG.TestCases" />
+        <item itemvalue="TestNG.TestCases.login" />
       </list>
     </recent_temporary>
   </component>
@@ -875,25 +871,17 @@
       <option name="project" value="LOCAL" />
       <updated>1548302704386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="additions">
+      <created>1548991097854</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548991097854</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PriorityEx_print1 - 2019.01.31 at 09h 11m 31s.xml">
-      <configuration name="PriorityEx.print1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PriorityEx - 2019.01.31 at 09h 11m 49s.xml">
-      <configuration name="PriorityEx" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PriorityEx - 2019.01.31 at 09h 12m 44s.xml">
-      <configuration name="PriorityEx" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="G__workspace_selenium_testg_test_xml - 2019.01.31 at 09h 26m 00s.xml">
-      <configuration name="G:/workspace/selenium/testg_test.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="G__workspace_selenium_testg_test_xml - 2019.01.31 at 09h 29m 30s.xml">
-      <configuration name="G:/workspace/selenium/testg_test.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="G__workspace_selenium_testg_test_xml - 2019.01.31 at 09h 29m 40s.xml">
       <configuration name="G:/workspace/selenium/testg_test.xml" configurationId="TestNG" />
     </history-entry>
@@ -909,10 +897,24 @@
     <history-entry file="FnameLname_Dataprovider - 2019.02.01 at 07h 57m 27s.xml">
       <configuration name="FnameLname_Dataprovider" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="G__workspace_selenium_multi_xml - 2019.02.01 at 09h 02m 39s.xml">
+      <configuration name="G:/workspace/selenium/multi.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FnameLname_Dataprovider_test - 2019.02.01 at 09h 08m 59s.xml">
+      <configuration name="FnameLname_Dataprovider.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="G__workspace_selenium_parameter_xml - 2019.02.01 at 09h 13m 31s.xml">
+      <configuration name="G:/workspace/selenium/parameter.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCases_login - 2019.02.01 at 09h 20m 37s.xml">
+      <configuration name="TestCases.login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCases - 2019.02.01 at 09h 21m 08s.xml">
+      <configuration name="TestCases" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3570348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -923,7 +925,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34863946" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24319728" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.335034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -948,7 +950,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="18Jan2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="18Jan2019" />
+    <MESSAGE value="additions" />
+    <option name="LAST_COMMIT_MESSAGE" value="additions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -998,54 +1001,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/framework/actions/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/framework/pom/LoginPom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/locators/demo/PageObjectModelLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/locators/demo/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="47" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PromptAlert.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wdjhwd.xml" />
-    <entry file="file://$PROJECT_DIR$/temp-testng-customsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/groups/testng-failed.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testng/dataprovider/Dataprovider_Workbook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/excelrw/datadriven/KeywordFW.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1130,13 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="36" selection-start-line="16" selection-start-column="7" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testng/listeners/TestCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
@@ -1250,13 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testng/AssertEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testng/Fb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1310,52 +1251,173 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testng/AssertEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testng/PriorityEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="106">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testng/CrossBrowserTest/MultipleBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="154">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multi.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testng/dataprovider/FnameLname_Dataprovider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testng/dataprovider/FnameLname_Xml.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parameter.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testng/dataprovider/FnameLname_Xml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar!/org/testng/ITestListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testng/listeners/ListenerTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testng/listeners/TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/framework/workbookoperations/ReadKeyword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/framework/actions/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/framework/actions/RedirectToMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/framework/main/RunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/framework/pom/LoginPom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/framework/actions/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+          <folding>
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/framework/utils/LoginCredentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reports/ItextPdfEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="60" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reports/PieChart.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
         </state>
       </provider>
     </entry>

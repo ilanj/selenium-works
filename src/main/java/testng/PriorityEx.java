@@ -14,17 +14,17 @@ public class PriorityEx {
         Thread.sleep(2500);
         System.out.println("i am print 1");
     }
-    @Test(groups="level2")
+    @Test(groups="level2",priority = 2)
     void print2() throws InterruptedException {
         Thread.sleep(2500);
         System.out.println("i am print 2");
     }
-    @Test(groups="level4")
+    @Test(groups="level4",priority = 0)
     void print4() throws InterruptedException {
         Thread.sleep(2500);
         System.out.println("i am group4");
     }
-    @Test(groups="level2")
+    @Test(groups="level2",priority = 1)
     void print3() throws InterruptedException {
         Thread.sleep(2500);
         System.out.println("i am print 3");

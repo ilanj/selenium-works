@@ -27,4 +27,18 @@ public class Login {
         selectLang.selectByVisibleText("English (Indian)");
         LoginPom.getSubmitButton(driver).click();
     }
+    public  static void test1()
+    {
+        System.out.println("i am test 1");
+    }
+
+    public  static void test2()
+    {
+        System.out.println("i am test 2");
+    }
+
+    public  static void test3()
+    {
+        System.out.println("i am test 3");
+    }
 }

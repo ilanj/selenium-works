@@ -53,11 +53,11 @@ public class PieChart extends JFrame {
     private PieDataset createDataset() {
 
         DefaultPieDataset dataset=new DefaultPieDataset();
-        dataset.setValue("80-100", 120);
-        dataset.setValue("60-79", 80);
-        dataset.setValue("40-59", 20);
-        dataset.setValue("20-39", 7);
-        dataset.setValue("0-19", 3);
+        dataset.setValue("pass", 120);
+        dataset.setValue("fail", 80);
+//        dataset.setValue("40-59", 20);
+//        dataset.setValue("20-39", 7);
+//        dataset.setValue("0-19", 3);
         return dataset;
     }
 

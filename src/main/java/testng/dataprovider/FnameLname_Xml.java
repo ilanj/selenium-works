@@ -6,8 +6,8 @@ import org.testng.annotations.Test;
 public class FnameLname_Xml {
 @Test
 @Parameters({ "fname", "lname" })
-    public static void testRun(String fname,String lname)
+    public static void testRun(String aa,String lname)
     {
-        System.out.println(fname+"  "+lname);
+        System.out.println(aa+"  "+lname);
     }
 }

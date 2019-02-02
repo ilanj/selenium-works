@@ -7,8 +7,9 @@ public class FnameLname_Dataprovider {
     @DataProvider(name = "Authentication")
     public static Object[][] getData() {
 
-        return new Object[][] { { "testuser_1", "Test@123" }, { "testuser_1", "Test@123" }};
+        return new Object[][] { { "testuser_1", "Test@123" }, { "testuser_2", "gjgkg" }};
     }
+
     @Test(dataProvider = "Authentication")
 
     public void test(String x, String y) {
